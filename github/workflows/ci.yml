@@ -24,4 +24,4 @@ jobs:
 
     - name: Validate FLask App
       run: |
-        python app.py 
+        python -m py_compileapp.py 
